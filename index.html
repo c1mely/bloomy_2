@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bloomy</title>
+  
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="сайтик.css" />
+  
+</head>
+<body>
+
+<header class="header bg-light py-3">
+  <div class="container d-flex align-items-center">
+    <a href="task.html">
+      <img src="./images/logo.png" alt="Логотип" class="header_logo" style="max-height: 50px; margin-right: 2rem;">
+    </a>
+
+    <nav class="header_nav flex-grow-1">
+      <ul class="header_list d-flex flex-wrap gap-3 mb-0">
+        <li><a class="active" href="index.html">ГЛАВНАЯ</a></li>
+        <li><a href="catalog.html">КАТАЛОГ</a></li>
+        <li><a href="partners.html">ПАРТНЁРЫ</a></li>
+        <li><a href="order.html">ЗАКАЗ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="main">
+  <section class="welcome text-white text-center" 
+           style="background-image: url('./images/welcome_background.png'); background-size: cover; background-position: center; padding: 8rem 1rem;">
+    <div class="container">
+      <h4 class="welcome_subtitle">FLOWERS & EMOTIONS</h4>
+      <h1 class="welcome_title display-4">When every petal tells a story</h1>
+      <p class="welcome_desc mt-4 opacity-75">Whether you want to brighten up your home, celebrate a loved one, or add elegance to an event, our expert florists create stunning arrangements with care and creativity.</p>
+      <p class="welcome_desc opacity-75">Хотите ли вы украсить свой дом, отпраздновать день рождения любимого человека или придать элегантности мероприятию, наши опытные флористы создадут потрясающие композиции с заботой и творческим подходом.</p>
+      <a href="catalog.html#catalog_header" class="btn btn-outline-light btn-lg mt-3 welcome_btn">ORDER NOW</a>
+    </div>
+  </section>
+
+  <section class="welcome-list bg-white py-5">
+    <div class="container d-flex flex-wrap justify-content-center gap-4">
+      <div class="welcome-list_card text-center" style="flex: 1 1 300px; max-width:400px;">
+        <h4 class="welcome-list_title text-start">букеты</h4>
+        <img src="./images/welcome_card_1.jfif" alt="Фото букета" class="img-fluid rounded mb-3" style="height: 400px; object-fit: cover;">
+        <p class="welcome-list_text text-start">каждый букет - отражение уникального события в вашей жизни</p>
+        <a href="catalog.html#catalog_flowers" class="welcome-list_btn fw-bold">купить</a>
+      </div>
+
+      <div class="welcome-list_card text-center" style="flex: 1 1 300px; max-width:400px;">
+        <h4 class="welcome-list_title text-start">наборы</h4>
+        <img src="./images/welcome_card_2.jfif" alt="Фото букета" class="img-fluid rounded mb-3" style="height: 400px; object-fit: cover;">
+        <p class="welcome-list_text text-start">добавьте к букету маленькие приятности: клубника, открытки и другое</p>
+        <a href="catalog.html#catalog_sets" class="welcome-list_btn fw-bold">купить</a>
+      </div>
+
+      <div class="welcome-list_card text-center" style="flex: 1 1 300px; max-width:400px;">
+        <h4 class="welcome-list_title text-start">подписка</h4>
+        <img src="./images/welcome_card_3.jfif" alt="Фото букета" class="img-fluid rounded mb-3" style="height: 400px; object-fit: cover;">
+        <p class="welcome-list_text text-start">радуйте любимых чаще, а с нашей подпиской это будет выгоднее</p>
+        <a href="#!" class="welcome-list_btn fw-bold">купить</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<section id="shop_information" class="footer bg-white py-5">
+  <div class="container d-flex flex-wrap justify-content-between align-items-start">
+    <div class="footer_logo mb-3" style="max-width: 180px;">
+      <img src="./images/logo.png" alt="Логотип" class="img-fluid" />
+    </div>
+
+    <div class="footer_adress mb-3">
+      <h4 class="footer-title">адрес</h4>
+      <p class="footer-text">г. Санкт-Петербург, Невский проспект, 85</p>
+    </div>
+
+    <div class="footer_hours mb-3">
+      <h4 class="footer-title">график работы</h4>
+      <p class="footer-text">10.00 - 22.00</p>
+    </div>
+
+    <div class="footer_contacts mb-3">
+      <h4 class="footer-title">наши контакты</h4>
+      <p class="footer-text">+7 977-777-77-77</p>
+      <p class="footer-text">bloomy@yandex.ru</p>
+    </div>
+
+    <div class="footer_social_media mb-3 d-flex gap-3 align-items-center">
+      <h4 class="footer-title mb-0">соц. сети</h4>
+      <a href="https://web.telegram.org/" target="_blank"><img src="./images/тг.png" alt="Telegram" style="width:36px; height:36px;"></a>
+      <a href="https://ru.pinterest.com/" target="_blank"><img src="./images/pinterest.png" alt="Pinterest" style="width:36px; height:36px;"></a>
+      <a href="https://vk.com/" target="_blank"><img src="./images/vk.png" alt="VK" style="width:36px; height:36px;"></a>
+    </div>
+  </div>
+</section>
+
+<section class="footer_bottom bg-dark text-white text-center py-3">
+  <p class="mb-1">© 2025 Bloomy. Все права защищены.</p>
+  <p>
+    <a href="https://www.google.com/?hl=ru" class="footer_link text-white text-decoration-none">Политика конфиденциальности</a> | 
+    <a href="https://www.google.com/?hl=ru" class="footer_link text-white text-decoration-none">Условия использования</a>
+  </p>
+</section>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
